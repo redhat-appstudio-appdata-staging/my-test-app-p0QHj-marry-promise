@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: react-topology-ujs8
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/jephilli-tenant/my-test-app/react-topology-ujs8@sha256:f199c399c55810ab26ed5b29a4f3efd067e1da14b9def36478f6a9931b810220
+        name: my-nodejs
+        resources: {}
+status: {}
